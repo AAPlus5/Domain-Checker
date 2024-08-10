@@ -6,5 +6,5 @@ This Python script checks if domains from a file are active by pinging them.
 
 **Example usage**: `python domain_checker.py -f domains.txt`
 
-**Parameters:**<br>
+**Parameter:**<br>
 `-f, --file: Path to the file containing domains to ping.`<br>
