@@ -8,3 +8,6 @@ This Python script checks if domains from a file are active by pinging them.
 
 **Parameter:**<br>
 `-f, --file: Path to the file containing domains to ping.`<br>
+
+**Note**
+This script was tested on Kali Linux.
