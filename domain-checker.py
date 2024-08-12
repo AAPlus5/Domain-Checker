@@ -18,7 +18,7 @@ def ping_domain(domain):
         if result.returncode == 0:
             print(f'{GREEN}{domain} domain is active{RESET}')
         else:
-            print(f'{RED}{domain} domain is not active{RESET}')
+            print(f'{RED}{domain} domain is inactive{RESET}')
     except Exception as e:
         print(f'Error! {domain}: {e}')
 
